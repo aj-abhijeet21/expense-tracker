@@ -1,10 +1,10 @@
 import 'dart:async';
 
 import 'package:expense_tracker/google_sheets_api.dart';
-import 'package:expense_tracker/loading_circle.dart';
-import 'package:expense_tracker/plus_button.dart';
-import 'package:expense_tracker/top_card.dart';
-import 'package:expense_tracker/transaction.dart';
+import 'package:expense_tracker/widgets/loading_circle.dart';
+import 'package:expense_tracker/widgets/plus_button.dart';
+import 'package:expense_tracker/widgets/top_card.dart';
+import 'package:expense_tracker/widgets/transaction.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
